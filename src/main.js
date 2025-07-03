@@ -204,7 +204,7 @@ const pointLight = new THREE.PointLight(0xffffff, 1.25);
 pointLight.position.set(0, 0, 0);
 scene.add(pointLight);
 
-const ambientLight = new THREE.AmbientLight(0x404040, 1);
+const ambientLight = new THREE.AmbientLight("#d0cdcd", 1);
 scene.add(ambientLight);
 
 // lil-gui control panel
