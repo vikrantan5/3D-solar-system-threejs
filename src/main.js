@@ -56,8 +56,8 @@ const materials = {
       () => console.error('Failed to load sun texture')
     ),
     color: 0xffff00,
-    emissive: 0xffaa00,
-    emissiveIntensity: 0.3
+    // emissive: 0xffaa00,
+    // emissiveIntensity: 0.3
   }),
   mercury: new THREE.MeshStandardMaterial({ 
     map: loader.load('/assets/textures/mercury.jpg', 
